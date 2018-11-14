@@ -24,11 +24,6 @@ if len(event.getKeys())>0:
     'break'
     event.clearEvents()
 
-
-#pause, so you get a chance to see it!
-core.wait(5.0)
-
-
 #cleanup
 win.close()
 core.quit()
